@@ -3,9 +3,9 @@ while true
 do
 echo "-=START=-"
 sleep 5
-sudo cpulimit -e minergate-cli -v -l 600&echo "-=CONTROL=-"&sleep 10
-sudo minergate-cli -user boss.velial@bk.ru -xmr&echo "-=START=-"&sleep 300
-sudo killall -9 minergate-cli&sudo killall -9 cpulimit&echo "-=KILL=-"&sleep 60
+sudo cpulimit -e minergate-cli -v -l 666&echo "-=CONTROL=-"&sleep 10
+sudo minergate-cli -user boss.velial@bk.ru -xmr&echo "-=START=-"&sleep 666
+sudo killall -9 minergate-cli&sudo killall -9 cpulimit&echo "-=KILL=-"&sleep 66
 echo "-=END=-"
 sleep 5
 done
