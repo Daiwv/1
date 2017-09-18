@@ -1,0 +1,59 @@
+{
+  "name": "gbot-trader",
+  "version": "0.17.2",
+  "author": {
+    "name": "George",
+    "email": "gbot-trader@mail.ru"
+  },
+  "description": "btc-e, poloniex, bittrex, exmo gbot trader",
+  "main": "./build/server.js",
+  "scripts": {
+    "start": "node ./build/server"
+  },
+  "contributors": [
+    {
+      "name": "George",
+      "email": "gbot-trader@mail.ru"
+    }
+  ],
+  "keywords": [
+    "btc-e",
+    "btce",
+    "poloniex",
+    "bittrex",
+    "exmo",
+    "bitcoin",
+    "btc",
+    "eth",
+    "ltc",
+    "nmc",
+    "trade",
+    "coin"
+  ],
+  "license": "Shareware",
+  "engines": {
+    "node": ">=8.2.1",
+    "npm": ">=5.3.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@you21979/bittrex.com": "0.0.4",
+    "async": "^2.5.0",
+    "btce-deal": "^0.2.3",
+    "colors": "^1.1.2",
+    "crypto-js": "^3.1.9-1",
+    "hashids": "^1.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-range": "^3.0.3",
+    "ms": "^2.0.0",
+    "node-telegram-bot-api": "^0.27.0",
+    "nodemailer": "^4.0.0",
+    "poloniex-api-node": "^1.3.1",
+    "request": "^2.81.0",
+    "ta-lib": "^0.11.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  },
+  "devDependencies": {}
+}
